@@ -1,0 +1,22 @@
+body{
+    background-image: url();
+}
+img{
+    width:50px;
+}
+.non{
+    display: inline-block;
+    width: 200px;
+    height: 190px;
+    background-image: url(img/hart2.png);
+}
+.non:hover{
+    background-image: url(img/hart3.png);
+    cursor: pointer;
+}
+.non span{
+    display: inline-block;
+     width: 0;
+    height: 190px;
+    background-image: url(img/hart1.png);
+}
